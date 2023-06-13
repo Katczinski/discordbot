@@ -10,7 +10,6 @@
 const std::string    BOT_TOKEN = "MTExNTU3MDc3MzIxODgyNDI5Mg.GSuoEi.ubEirywP1OXjlhveH5SVUFqkQMV5obtVRIn1UE";
 
 int main() {
-    setenv("OPENAI_API_KEY", "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", true);
     dpp::cluster bot(BOT_TOKEN);
     bot.intents |= dpp::i_message_content;
 
